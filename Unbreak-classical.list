@@ -2,8 +2,6 @@
 DOMAIN-SUFFIX,movie.douban.com
 DOMAIN-SUFFIX,mddcloud.com.cn
 DOMAIN-SUFFIX,aliyundrive.asia
-DOMAIN-SUFFIX,v.ddys.zip
-DOMAIN-SUFFIX,v.ddys.pro
 DOMAIN-SUFFIX,ddys.info
 DOMAIN-SUFFIX,ddys.wiki
 DOMAIN-SUFFIX,ddys.pro
@@ -14,7 +12,6 @@ DOMAIN-SUFFIX,cz.cz01.site
 DOMAIN-SUFFIX,kczybf.com
 DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,appsflyer.com
-DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,ctyunxs.cn
 DOMAIN-SUFFIX,hls.aoxtv.com
@@ -25,12 +22,12 @@ DOMAIN-KEYWORD,v.cdnlz
 DOMAIN-KEYWORD,lz-cdn
 DOMAIN-KEYWORD,default.akamaized.net
 DOMAIN-KEYWORD,vip.ffzy-online
+DOMAIN-KEYWORD,vip.ffzy-play
 DOMAIN-KEYWORD,ffzyread
 DOMAIN-SUFFIX,kuaikan-api.com
 DOMAIN-SUFFIX,czzy88.com
 DOMAIN-SUFFIX,czzy22.com
 DOMAIN-SUFFIX,czzy66.com
-DOMAIN-SUFFIX,cz01.vip
 DOMAIN-SUFFIX,CZZ9.COM
 DOMAIN-SUFFIX,v1.ax
 IP-CIDR,216.180.0.0/16
