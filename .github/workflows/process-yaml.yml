@@ -38,4 +38,4 @@ jobs:
 
       # Optional: Use the `GITHUB_TOKEN` for authentication (default token provided by GitHub Actions)
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
