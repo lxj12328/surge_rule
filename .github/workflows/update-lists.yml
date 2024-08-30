@@ -29,6 +29,7 @@ jobs:
 
     - name: Commit and push if changed
       run: |
+        git remote set-url origin https://${{ secrets.PAT }}@github.com/lxj12328/surge_rule.git
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
         git add Unbreak-classical.list proxy-classical.list
