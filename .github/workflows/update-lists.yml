@@ -1,0 +1,37 @@
+name: Update Lists
+
+on:
+  schedule:
+    - cron: '0 0,12 * * *'  # 每天 12:00 UTC 运行
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Update Unbreak-classical.list
+      run: |
+        curl -s https://raw.githubusercontent.com/qoli/SyncnextClash/main/Unbreak-classical.yaml | 
+        sed '1d' | sed 's/^  - //' > Unbreak-classical.list
+
+    - name: Update proxy-classical.list
+      run: |
+        curl -s https://raw.githubusercontent.com/qoli/SyncnextClash/main/proxy-classical.yaml | 
+        sed '1d' | sed 's/^  - //' > proxy-classical.list
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add Unbreak-classical.list proxy-classical.list
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update lists" && git push)
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
