@@ -12,6 +12,9 @@ jobs:
     steps:
     - name: 检出代码
       uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.PAT }}
+        fetch-depth: 0
 
     - name: 设置 Python
       uses: actions/setup-python@v2
@@ -42,4 +45,4 @@ jobs:
         git commit -m "更新 ISP 地址列表" || echo "没有更改需要提交"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PAT }}
