@@ -1,4 +1,4 @@
-name: Update Lists
+name: 更新syncnext surge list
 
 on:
   schedule:
