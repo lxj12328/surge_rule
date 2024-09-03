@@ -1,0 +1,45 @@
+name: 更新 ISP 地址列表
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天午夜（UTC）运行
+  workflow_dispatch:  # 允许手动触发工作流
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v2
+
+    - name: 设置 Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'  # 可以指定你需要的版本
+
+    - name: 安装依赖
+      run: |
+        pip install requests
+
+    - name: 运行 ISP 脚本
+      env:
+        OUTPUT_FILE: 'isp.rsc'  # 定义输出文件名
+      run: |
+        python isp.py
+
+    - name: 上传 ISP 地址列表
+      uses: actions/upload-artifact@v2
+      with:
+        name: isp-address-list
+        path: isp.rsc
+
+    - name: 提交并推送更改
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add isp.rsc
+        git commit -m "更新 ISP 地址列表" || echo "没有更改需要提交"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
