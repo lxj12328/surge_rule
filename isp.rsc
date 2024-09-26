@@ -5228,7 +5228,6 @@
 :do { add address=103.103.80.0/22 list=tw_cidr } on-error={}
 :do { add address=103.103.128.0/22 list=tw_cidr } on-error={}
 :do { add address=103.104.148.0/22 list=tw_cidr } on-error={}
-:do { add address=103.106.52.0/22 list=tw_cidr } on-error={}
 :do { add address=103.112.48.0/22 list=tw_cidr } on-error={}
 :do { add address=103.115.108.0/23 list=tw_cidr } on-error={}
 :do { add address=103.116.14.0/23 list=tw_cidr } on-error={}
@@ -5303,7 +5302,6 @@
 :do { add address=103.131.252.0/22 list=tw_cidr } on-error={}
 :do { add address=103.132.156.0/22 list=tw_cidr } on-error={}
 :do { add address=103.133.44.0/22 list=tw_cidr } on-error={}
-:do { add address=103.133.152.0/22 list=tw_cidr } on-error={}
 :do { add address=103.134.80.0/22 list=tw_cidr } on-error={}
 :do { add address=103.134.120.0/22 list=tw_cidr } on-error={}
 :do { add address=103.135.16.0/21 list=tw_cidr } on-error={}
