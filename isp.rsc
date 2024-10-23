@@ -4513,7 +4513,7 @@
 :do { add address=202.22.240.0/21 list=hk_cidr } on-error={}
 :do { add address=202.27.114.0/24 list=hk_cidr } on-error={}
 :do { add address=202.36.160.0/23 list=hk_cidr } on-error={}
-:do { add address=202.38.4.0/22 list=hk_cidr } on-error={}
+:do { add address=202.38.6.0/23 list=hk_cidr } on-error={}
 :do { add address=202.38.16.0/20 list=hk_cidr } on-error={}
 :do { add address=202.38.178.0/23 list=hk_cidr } on-error={}
 :do { add address=202.40.134.0/24 list=hk_cidr } on-error={}
