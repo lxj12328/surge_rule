@@ -14,7 +14,6 @@
 :do { add address=1.1.16.0/20 list=chinatelecom_cidr } on-error={}
 :do { add address=1.1.32.0/19 list=chinatelecom_cidr } on-error={}
 :do { add address=1.2.0.0/23 list=chinatelecom_cidr } on-error={}
-:do { add address=1.2.5.0/24 list=chinatelecom_cidr } on-error={}
 :do { add address=1.2.6.0/23 list=chinatelecom_cidr } on-error={}
 :do { add address=1.2.9.0/24 list=chinatelecom_cidr } on-error={}
 :do { add address=1.2.10.0/23 list=chinatelecom_cidr } on-error={}
@@ -5786,7 +5785,7 @@
 /ip firewall address-list
 :do { add address=1.1.8.0/24 list=othernet_cidr } on-error={}
 :do { add address=1.2.2.0/24 list=othernet_cidr } on-error={}
-:do { add address=1.2.4.0/24 list=othernet_cidr } on-error={}
+:do { add address=1.2.4.0/23 list=othernet_cidr } on-error={}
 :do { add address=1.2.8.0/24 list=othernet_cidr } on-error={}
 :do { add address=1.4.4.0/24 list=othernet_cidr } on-error={}
 :do { add address=1.8.0.0/16 list=othernet_cidr } on-error={}
