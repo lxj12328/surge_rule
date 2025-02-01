@@ -2384,6 +2384,7 @@
 /log info "Loading cmcc_cidr ipv4 address list"
 /ip firewall address-list remove [/ip firewall address-list find list=cmcc_cidr]
 /ip firewall address-list
+:do { add address=36.128.0.0/10 list=cmcc_cidr } on-error={}
 :do { add address=39.128.0.0/10 list=cmcc_cidr } on-error={}
 :do { add address=43.239.172.0/22 list=cmcc_cidr } on-error={}
 :do { add address=43.251.244.0/22 list=cmcc_cidr } on-error={}
@@ -5822,7 +5823,6 @@
 :do { add address=36.50.226.0/23 list=othernet_cidr } on-error={}
 :do { add address=36.50.254.0/23 list=othernet_cidr } on-error={}
 :do { add address=36.51.0.0/16 list=othernet_cidr } on-error={}
-:do { add address=36.128.0.0/10 list=othernet_cidr } on-error={}
 :do { add address=36.254.0.0/16 list=othernet_cidr } on-error={}
 :do { add address=36.255.116.0/22 list=othernet_cidr } on-error={}
 :do { add address=36.255.128.0/22 list=othernet_cidr } on-error={}
