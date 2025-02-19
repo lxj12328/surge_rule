@@ -49,6 +49,7 @@
 :do { add address=14.0.0.0/21 list=chinatelecom_cidr } on-error={}
 :do { add address=14.0.12.0/22 list=chinatelecom_cidr } on-error={}
 :do { add address=14.1.0.0/22 list=chinatelecom_cidr } on-error={}
+:do { add address=14.16.0.0/12 list=chinatelecom_cidr } on-error={}
 :do { add address=14.102.128.0/22 list=chinatelecom_cidr } on-error={}
 :do { add address=14.104.0.0/13 list=chinatelecom_cidr } on-error={}
 :do { add address=14.112.0.0/12 list=chinatelecom_cidr } on-error={}
@@ -2383,7 +2384,6 @@
 /log info "Loading cmcc_cidr ipv4 address list"
 /ip firewall address-list remove [/ip firewall address-list find list=cmcc_cidr]
 /ip firewall address-list
-:do { add address=36.128.0.0/10 list=cmcc_cidr } on-error={}
 :do { add address=39.128.0.0/10 list=cmcc_cidr } on-error={}
 :do { add address=43.239.172.0/22 list=cmcc_cidr } on-error={}
 :do { add address=43.251.244.0/22 list=cmcc_cidr } on-error={}
@@ -4398,6 +4398,7 @@
 :do { add address=163.53.16.0/22 list=hk_cidr } on-error={}
 :do { add address=163.53.216.0/22 list=hk_cidr } on-error={}
 :do { add address=163.61.42.0/23 list=hk_cidr } on-error={}
+:do { add address=163.61.150.0/23 list=hk_cidr } on-error={}
 :do { add address=165.84.128.0/18 list=hk_cidr } on-error={}
 :do { add address=165.154.0.0/17 list=hk_cidr } on-error={}
 :do { add address=165.154.128.0/18 list=hk_cidr } on-error={}
@@ -5797,7 +5798,6 @@
 :do { add address=1.116.0.0/14 list=othernet_cidr } on-error={}
 :do { add address=14.1.96.0/22 list=othernet_cidr } on-error={}
 :do { add address=14.1.108.0/22 list=othernet_cidr } on-error={}
-:do { add address=14.16.0.0/12 list=othernet_cidr } on-error={}
 :do { add address=14.102.156.0/22 list=othernet_cidr } on-error={}
 :do { add address=14.102.180.0/22 list=othernet_cidr } on-error={}
 :do { add address=14.103.0.0/16 list=othernet_cidr } on-error={}
@@ -5828,6 +5828,7 @@
 :do { add address=36.50.226.0/23 list=othernet_cidr } on-error={}
 :do { add address=36.50.254.0/23 list=othernet_cidr } on-error={}
 :do { add address=36.51.0.0/16 list=othernet_cidr } on-error={}
+:do { add address=36.128.0.0/10 list=othernet_cidr } on-error={}
 :do { add address=36.254.0.0/16 list=othernet_cidr } on-error={}
 :do { add address=36.255.116.0/22 list=othernet_cidr } on-error={}
 :do { add address=36.255.128.0/22 list=othernet_cidr } on-error={}
