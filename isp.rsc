@@ -3653,7 +3653,6 @@
 :do { add address=103.147.252.0/24 list=hk_cidr } on-error={}
 :do { add address=103.148.36.0/23 list=hk_cidr } on-error={}
 :do { add address=103.148.58.0/23 list=hk_cidr } on-error={}
-:do { add address=103.148.116.0/23 list=hk_cidr } on-error={}
 :do { add address=103.148.124.0/23 list=hk_cidr } on-error={}
 :do { add address=103.148.145.0/24 list=hk_cidr } on-error={}
 :do { add address=103.148.150.0/23 list=hk_cidr } on-error={}
