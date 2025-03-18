@@ -8690,6 +8690,7 @@
 :do { add address=163.223.28.0/23 list=othernet_cidr } on-error={}
 :do { add address=163.223.32.0/23 list=othernet_cidr } on-error={}
 :do { add address=163.223.68.0/23 list=othernet_cidr } on-error={}
+:do { add address=163.223.124.0/23 list=othernet_cidr } on-error={}
 :do { add address=163.228.0.0/16 list=othernet_cidr } on-error={}
 :do { add address=164.52.0.0/17 list=othernet_cidr } on-error={}
 :do { add address=167.139.0.0/16 list=othernet_cidr } on-error={}
