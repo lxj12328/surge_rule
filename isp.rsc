@@ -2459,7 +2459,6 @@
 /ip firewall address-list remove [/ip firewall address-list find list=gwbn_cidr]
 /ip firewall address-list
 :do { add address=1.94.0.0/15 list=gwbn_cidr } on-error={}
-:do { add address=14.1.24.0/22 list=gwbn_cidr } on-error={}
 :do { add address=43.224.184.0/22 list=gwbn_cidr } on-error={}
 :do { add address=43.242.56.0/22 list=gwbn_cidr } on-error={}
 :do { add address=43.242.144.0/22 list=gwbn_cidr } on-error={}
@@ -5830,6 +5829,7 @@
 :do { add address=1.88.0.0/14 list=othernet_cidr } on-error={}
 :do { add address=1.92.0.0/15 list=othernet_cidr } on-error={}
 :do { add address=1.116.0.0/14 list=othernet_cidr } on-error={}
+:do { add address=14.1.24.0/22 list=othernet_cidr } on-error={}
 :do { add address=14.1.96.0/22 list=othernet_cidr } on-error={}
 :do { add address=14.1.108.0/22 list=othernet_cidr } on-error={}
 :do { add address=14.102.156.0/22 list=othernet_cidr } on-error={}
