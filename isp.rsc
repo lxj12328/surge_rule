@@ -5652,6 +5652,7 @@
 :do { add address=163.223.206.0/23 list=tw_cidr } on-error={}
 :do { add address=163.223.248.0/23 list=tw_cidr } on-error={}
 :do { add address=163.227.172.0/23 list=tw_cidr } on-error={}
+:do { add address=163.227.236.0/23 list=tw_cidr } on-error={}
 :do { add address=168.95.0.0/16 list=tw_cidr } on-error={}
 :do { add address=175.41.48.0/20 list=tw_cidr } on-error={}
 :do { add address=175.96.0.0/14 list=tw_cidr } on-error={}
