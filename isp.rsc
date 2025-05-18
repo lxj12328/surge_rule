@@ -2476,8 +2476,7 @@
 :do { add address=45.121.240.0/20 list=gwbn_cidr } on-error={}
 :do { add address=45.122.4.0/22 list=gwbn_cidr } on-error={}
 :do { add address=45.122.8.0/21 list=gwbn_cidr } on-error={}
-:do { add address=45.122.16.0/22 list=gwbn_cidr } on-error={}
-:do { add address=45.122.24.0/21 list=gwbn_cidr } on-error={}
+:do { add address=45.122.16.0/20 list=gwbn_cidr } on-error={}
 :do { add address=45.122.32.0/21 list=gwbn_cidr } on-error={}
 :do { add address=45.122.40.0/22 list=gwbn_cidr } on-error={}
 :do { add address=45.122.192.0/20 list=gwbn_cidr } on-error={}
@@ -6186,7 +6185,6 @@
 :do { add address=45.121.96.0/22 list=othernet_cidr } on-error={}
 :do { add address=45.121.212.0/22 list=othernet_cidr } on-error={}
 :do { add address=45.122.0.0/22 list=othernet_cidr } on-error={}
-:do { add address=45.122.20.0/22 list=othernet_cidr } on-error={}
 :do { add address=45.122.60.0/22 list=othernet_cidr } on-error={}
 :do { add address=45.122.64.0/19 list=othernet_cidr } on-error={}
 :do { add address=45.122.104.0/21 list=othernet_cidr } on-error={}
