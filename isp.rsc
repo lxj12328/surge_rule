@@ -3,6 +3,7 @@
 /ip firewall address-list
 :do { add address=1.0.1.0/24 list=chinatelecom_cidr } on-error={}
 :do { add address=1.0.2.0/23 list=chinatelecom_cidr } on-error={}
+:do { add address=1.0.8.0/21 list=chinatelecom_cidr } on-error={}
 :do { add address=1.0.32.0/19 list=chinatelecom_cidr } on-error={}
 :do { add address=1.1.0.0/24 list=chinatelecom_cidr } on-error={}
 :do { add address=1.1.2.0/23 list=chinatelecom_cidr } on-error={}
@@ -5816,7 +5817,6 @@
 /log info "Loading othernet_cidr ipv4 address list"
 /ip firewall address-list remove [/ip firewall address-list find list=othernet_cidr]
 /ip firewall address-list
-:do { add address=1.0.8.0/21 list=othernet_cidr } on-error={}
 :do { add address=1.1.8.0/24 list=othernet_cidr } on-error={}
 :do { add address=1.2.2.0/24 list=othernet_cidr } on-error={}
 :do { add address=1.2.4.0/24 list=othernet_cidr } on-error={}
