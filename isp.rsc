@@ -1731,6 +1731,7 @@
 /log info "Loading unicom_cnc_cidr ipv4 address list"
 /ip firewall address-list remove [/ip firewall address-list find list=unicom_cnc_cidr]
 /ip firewall address-list
+:do { add address=1.24.0.0/13 list=unicom_cnc_cidr } on-error={}
 :do { add address=1.56.0.0/13 list=unicom_cnc_cidr } on-error={}
 :do { add address=1.188.0.0/14 list=unicom_cnc_cidr } on-error={}
 :do { add address=14.204.0.0/15 list=unicom_cnc_cidr } on-error={}
@@ -5823,7 +5824,6 @@
 :do { add address=1.4.4.0/24 list=othernet_cidr } on-error={}
 :do { add address=1.8.0.0/16 list=othernet_cidr } on-error={}
 :do { add address=1.12.0.0/14 list=othernet_cidr } on-error={}
-:do { add address=1.24.0.0/13 list=othernet_cidr } on-error={}
 :do { add address=1.45.0.0/16 list=othernet_cidr } on-error={}
 :do { add address=1.88.0.0/14 list=othernet_cidr } on-error={}
 :do { add address=1.92.0.0/15 list=othernet_cidr } on-error={}
