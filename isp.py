@@ -2,6 +2,7 @@ import os
 import requests
 
 rule_dict = {
+    'all_cn_cidr': 'https://ispip.clang.cn/all_cn_cidr.txt',
     'chinatelecom_cidr': 'https://ispip.clang.cn/chinatelecom_cidr.txt',
     'unicom_cnc_cidr': 'https://ispip.clang.cn/unicom_cnc_cidr.txt',
     'cmcc_cidr': 'https://ispip.clang.cn/cmcc_cidr.txt',
