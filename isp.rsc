@@ -7563,7 +7563,6 @@
 :do { add address=103.253.60.0/22 list=unicom_cnc_cidr } on-error={}
 :do { add address=103.255.88.0/22 list=unicom_cnc_cidr } on-error={}
 :do { add address=103.255.200.0/22 list=unicom_cnc_cidr } on-error={}
-:do { add address=106.48.0.0/15 list=unicom_cnc_cidr } on-error={}
 :do { add address=106.74.0.0/16 list=unicom_cnc_cidr } on-error={}
 :do { add address=110.6.0.0/15 list=unicom_cnc_cidr } on-error={}
 :do { add address=110.16.0.0/14 list=unicom_cnc_cidr } on-error={}
@@ -13632,6 +13631,7 @@
 :do { add address=106.2.0.0/15 list=othernet_cidr } on-error={}
 :do { add address=106.11.0.0/16 list=othernet_cidr } on-error={}
 :do { add address=106.12.0.0/14 list=othernet_cidr } on-error={}
+:do { add address=106.48.0.0/15 list=othernet_cidr } on-error={}
 :do { add address=106.50.0.0/16 list=othernet_cidr } on-error={}
 :do { add address=106.52.0.0/14 list=othernet_cidr } on-error={}
 :do { add address=106.75.0.0/16 list=othernet_cidr } on-error={}
