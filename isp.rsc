@@ -5565,6 +5565,7 @@
 :do { add address=39.0.4.0/22 list=chinatelecom_cidr } on-error={}
 :do { add address=39.0.8.0/21 list=chinatelecom_cidr } on-error={}
 :do { add address=39.0.16.0/20 list=chinatelecom_cidr } on-error={}
+:do { add address=39.0.32.0/19 list=chinatelecom_cidr } on-error={}
 :do { add address=39.0.64.0/18 list=chinatelecom_cidr } on-error={}
 :do { add address=39.0.128.0/17 list=chinatelecom_cidr } on-error={}
 :do { add address=42.0.0.0/22 list=chinatelecom_cidr } on-error={}
@@ -11337,7 +11338,6 @@
 :do { add address=36.255.164.0/22 list=othernet_cidr } on-error={}
 :do { add address=36.255.172.0/22 list=othernet_cidr } on-error={}
 :do { add address=36.255.176.0/22 list=othernet_cidr } on-error={}
-:do { add address=39.0.32.0/19 list=othernet_cidr } on-error={}
 :do { add address=39.96.0.0/13 list=othernet_cidr } on-error={}
 :do { add address=39.104.0.0/14 list=othernet_cidr } on-error={}
 :do { add address=39.108.0.0/16 list=othernet_cidr } on-error={}
