@@ -1905,7 +1905,7 @@
 :do { add address=103.115.248.0/22 list=all_cn_cidr } on-error={}
 :do { add address=103.116.40.0/22 list=all_cn_cidr } on-error={}
 :do { add address=103.116.64.0/22 list=all_cn_cidr } on-error={}
-:do { add address=103.116.72.0/21 list=all_cn_cidr } on-error={}
+:do { add address=103.116.76.0/22 list=all_cn_cidr } on-error={}
 :do { add address=103.116.92.0/22 list=all_cn_cidr } on-error={}
 :do { add address=103.116.120.0/22 list=all_cn_cidr } on-error={}
 :do { add address=103.116.128.0/22 list=all_cn_cidr } on-error={}
@@ -5516,7 +5516,6 @@
 :do { add address=1.10.32.0/19 list=chinatelecom_cidr } on-error={}
 :do { add address=1.10.64.0/18 list=chinatelecom_cidr } on-error={}
 :do { add address=1.48.0.0/15 list=chinatelecom_cidr } on-error={}
-:do { add address=1.50.0.0/16 list=chinatelecom_cidr } on-error={}
 :do { add address=1.68.0.0/14 list=chinatelecom_cidr } on-error={}
 :do { add address=1.80.0.0/13 list=chinatelecom_cidr } on-error={}
 :do { add address=1.180.0.0/14 list=chinatelecom_cidr } on-error={}
@@ -8049,7 +8048,8 @@
 :do { add address=103.221.180.0/22 list=gwbn_cidr } on-error={}
 :do { add address=103.221.184.0/21 list=gwbn_cidr } on-error={}
 :do { add address=103.221.192.0/20 list=gwbn_cidr } on-error={}
-:do { add address=103.222.0.0/20 list=gwbn_cidr } on-error={}
+:do { add address=103.222.0.0/21 list=gwbn_cidr } on-error={}
+:do { add address=103.222.8.0/22 list=gwbn_cidr } on-error={}
 :do { add address=103.222.16.0/22 list=gwbn_cidr } on-error={}
 :do { add address=103.222.24.0/21 list=gwbn_cidr } on-error={}
 :do { add address=103.222.36.0/22 list=gwbn_cidr } on-error={}
@@ -9000,6 +9000,7 @@
 :do { add address=103.115.144.0/23 list=hk_cidr } on-error={}
 :do { add address=103.115.146.0/24 list=hk_cidr } on-error={}
 :do { add address=103.116.20.0/22 list=hk_cidr } on-error={}
+:do { add address=103.116.72.0/22 list=hk_cidr } on-error={}
 :do { add address=103.116.132.0/23 list=hk_cidr } on-error={}
 :do { add address=103.116.244.0/22 list=hk_cidr } on-error={}
 :do { add address=103.117.24.0/22 list=hk_cidr } on-error={}
@@ -11122,6 +11123,7 @@
 :do { add address=165.101.28.0/23 list=tw_cidr } on-error={}
 :do { add address=165.101.86.0/23 list=tw_cidr } on-error={}
 :do { add address=165.101.88.0/23 list=tw_cidr } on-error={}
+:do { add address=165.101.152.0/23 list=tw_cidr } on-error={}
 :do { add address=168.95.0.0/16 list=tw_cidr } on-error={}
 :do { add address=175.41.48.0/20 list=tw_cidr } on-error={}
 :do { add address=175.96.0.0/14 list=tw_cidr } on-error={}
@@ -11300,6 +11302,7 @@
 :do { add address=1.8.0.0/16 list=othernet_cidr } on-error={}
 :do { add address=1.12.0.0/14 list=othernet_cidr } on-error={}
 :do { add address=1.45.0.0/16 list=othernet_cidr } on-error={}
+:do { add address=1.50.0.0/16 list=othernet_cidr } on-error={}
 :do { add address=1.88.0.0/14 list=othernet_cidr } on-error={}
 :do { add address=1.92.0.0/15 list=othernet_cidr } on-error={}
 :do { add address=1.116.0.0/14 list=othernet_cidr } on-error={}
@@ -12767,7 +12770,7 @@
 :do { add address=103.115.248.0/22 list=othernet_cidr } on-error={}
 :do { add address=103.116.40.0/22 list=othernet_cidr } on-error={}
 :do { add address=103.116.64.0/22 list=othernet_cidr } on-error={}
-:do { add address=103.116.72.0/21 list=othernet_cidr } on-error={}
+:do { add address=103.116.76.0/22 list=othernet_cidr } on-error={}
 :do { add address=103.116.92.0/22 list=othernet_cidr } on-error={}
 :do { add address=103.116.120.0/22 list=othernet_cidr } on-error={}
 :do { add address=103.116.128.0/22 list=othernet_cidr } on-error={}
@@ -13384,6 +13387,7 @@
 :do { add address=103.221.152.0/22 list=othernet_cidr } on-error={}
 :do { add address=103.221.160.0/20 list=othernet_cidr } on-error={}
 :do { add address=103.221.176.0/22 list=othernet_cidr } on-error={}
+:do { add address=103.222.12.0/22 list=othernet_cidr } on-error={}
 :do { add address=103.222.112.0/20 list=othernet_cidr } on-error={}
 :do { add address=103.222.128.0/19 list=othernet_cidr } on-error={}
 :do { add address=103.222.160.0/22 list=othernet_cidr } on-error={}
