@@ -1,0 +1,50 @@
+name: Auto Update and Clean RouterOS Ads Rule (IPv4 Only)
+
+on:
+  schedule:
+    # 每天 UTC 时间凌晨 2:00 运行 (北京时间上午 10:00)
+    - cron: '0 2 * * *'
+  # 允许在 GitHub 网页端手动点击运行
+  workflow_dispatch:
+
+jobs:
+  update-rules:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and Process Ads Rule
+        run: |
+          echo "开始下载最新的 RouterOS 规则文件..."
+          # 下载源文件到临时文件
+          curl -sL "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-RouterOS.txt" -o temp_rules.txt
+          
+          echo "生成最终规则文件 (仅提取 IPv4)..."
+          # 1. 在文件最开头写入 RouterOS 的批量删除命令 (去除了 IPv6 的清理)
+          echo '/ip dns static remove [find address="240.0.0.1"]' > AWAvenue-Ads-Rule-RouterOS-IPv4.txt
+          
+          # 2. 使用 grep 仅精准匹配包含 address=240.0.0.1 的行，并追加到文件下方
+          grep "^ip dns static add address=240.0.0.1" temp_rules.txt >> AWAvenue-Ads-Rule-RouterOS-IPv4.txt
+          
+          # 3. 删除临时文件
+          rm temp_rules.txt
+
+      - name: Commit and Push changes
+        run: |
+          # 配置 git bot 身份
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 检查文件是否有更新，如果有则提交并推送
+          if [ -n "$(git status --porcelain)" ]; then
+            git add AWAvenue-Ads-Rule-RouterOS.txt
+            git commit -m "Auto-update RouterOS rules (IPv4 Only) [$(date +'%Y-%m-%d')]"
+            git push
+            echo "✅ IPv4 规则已更新并推送成功！"
+          else
+            echo "ℹ️ 源文件未发生变化，无需更新。"
+          fi
