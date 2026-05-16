@@ -41,7 +41,7 @@ jobs:
           
           # 检查文件是否有更新，如果有则提交并推送
           if [ -n "$(git status --porcelain)" ]; then
-            git add AWAvenue-Ads-Rule-RouterOS.txt
+            git add AWAvenue-Ads-Rule-RouterOS-IPv4.txt
             git commit -m "Auto-update RouterOS rules (IPv4 Only) [$(date +'%Y-%m-%d')]"
             git push
             echo "✅ IPv4 规则已更新并推送成功！"
