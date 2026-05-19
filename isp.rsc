@@ -16946,6 +16946,7 @@
 :do { add address=103.235.240.0/21 list=othernet_cidr } on-error={}
 :do { add address=103.235.248.0/23 list=othernet_cidr } on-error={}
 :do { add address=103.235.250.0/24 list=othernet_cidr } on-error={}
+:do { add address=103.236.99.0/24 list=othernet_cidr } on-error={}
 :do { add address=103.236.252.0/22 list=othernet_cidr } on-error={}
 :do { add address=103.237.8.0/22 list=othernet_cidr } on-error={}
 :do { add address=103.237.176.0/20 list=othernet_cidr } on-error={}
