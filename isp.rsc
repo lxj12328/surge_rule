@@ -757,6 +757,7 @@
 :do { add address=71.132.0.0/18 list=all_cn_cidr } on-error={}
 :do { add address=71.136.64.0/18 list=all_cn_cidr } on-error={}
 :do { add address=71.137.0.0/18 list=all_cn_cidr } on-error={}
+:do { add address=74.122.24.0/24 list=all_cn_cidr } on-error={}
 :do { add address=78.105.182.0/23 list=all_cn_cidr } on-error={}
 :do { add address=79.133.176.0/24 list=all_cn_cidr } on-error={}
 :do { add address=81.68.0.0/14 list=all_cn_cidr } on-error={}
@@ -16657,6 +16658,7 @@
 :do { add address=71.132.0.0/18 list=othernet_cidr } on-error={}
 :do { add address=71.136.64.0/18 list=othernet_cidr } on-error={}
 :do { add address=71.137.0.0/18 list=othernet_cidr } on-error={}
+:do { add address=74.122.24.0/24 list=othernet_cidr } on-error={}
 :do { add address=78.105.182.0/23 list=othernet_cidr } on-error={}
 :do { add address=79.133.176.0/24 list=othernet_cidr } on-error={}
 :do { add address=81.68.0.0/14 list=othernet_cidr } on-error={}
