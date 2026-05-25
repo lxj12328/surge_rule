@@ -115,6 +115,7 @@ ip dns static add address=240.0.0.1 name=adsfile.qq.com
 ip dns static add address=240.0.0.1 name=adsfilebssdlbig.ali.kugou.com
 ip dns static add address=240.0.0.1 name=adsfileretry.service.kugou.com
 ip dns static add address=240.0.0.1 name=adsfs-sdkconfig.heytapimage.com
+ip dns static add address=240.0.0.1 name=adsfs.heytapimage.com
 ip dns static add address=240.0.0.1 name=adsfs.oppomobile.com
 ip dns static add address=240.0.0.1 name=adslvfile.qq.com
 ip dns static add address=240.0.0.1 name=adsmart.konka.com
@@ -333,7 +334,6 @@ ip dns static add address=240.0.0.1 name=domain.aishengji.com
 ip dns static add address=240.0.0.1 name=doubleclick-cn.net
 ip dns static add address=240.0.0.1 name=download.changhong.upgrade2.huan.tv
 ip dns static add address=240.0.0.1 name=downloadxml.changhong.upgrade2.huan.tv
-ip dns static add address=240.0.0.1 name=drcn-weather.cloud.huawei.com
 ip dns static add address=240.0.0.1 name=dsp-x.jd.com
 ip dns static add address=240.0.0.1 name=dsp.fcbox.com
 ip dns static add address=240.0.0.1 name=dualstack-logs.amap.com
