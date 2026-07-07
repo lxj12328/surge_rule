@@ -7583,6 +7583,7 @@
 :do { add address=114.118.112.0/20 list=cmcc_cidr } on-error={}
 :do { add address=115.180.0.0/17 list=cmcc_cidr } on-error={}
 :do { add address=116.85.16.0/22 list=cmcc_cidr } on-error={}
+:do { add address=116.242.224.0/19 list=cmcc_cidr } on-error={}
 :do { add address=117.48.0.0/18 list=cmcc_cidr } on-error={}
 :do { add address=117.48.64.0/19 list=cmcc_cidr } on-error={}
 :do { add address=117.48.144.0/20 list=cmcc_cidr } on-error={}
@@ -7916,6 +7917,7 @@
 :do { add address=114.118.112.0/20 list=crtc_cidr } on-error={}
 :do { add address=115.180.0.0/17 list=crtc_cidr } on-error={}
 :do { add address=116.85.16.0/22 list=crtc_cidr } on-error={}
+:do { add address=116.242.224.0/19 list=crtc_cidr } on-error={}
 :do { add address=117.48.0.0/18 list=crtc_cidr } on-error={}
 :do { add address=117.48.64.0/19 list=crtc_cidr } on-error={}
 :do { add address=117.48.144.0/20 list=crtc_cidr } on-error={}
