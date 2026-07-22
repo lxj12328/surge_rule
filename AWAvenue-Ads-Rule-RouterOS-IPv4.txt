@@ -327,7 +327,6 @@ ip dns static add address=240.0.0.1 name=datacollection.uve.weibo.com
 ip dns static add address=240.0.0.1 name=dc.sigmob.cn
 ip dns static add address=240.0.0.1 name=de.tynt.com
 ip dns static add address=240.0.0.1 name=diagnosis.ad.xiaomi.com
-ip dns static add address=240.0.0.1 name=dig.bdurl.net
 ip dns static add address=240.0.0.1 name=dlogs.bwton.com
 ip dns static add address=240.0.0.1 name=dm.toutiao.com
 ip dns static add address=240.0.0.1 name=domain.aishengji.com
@@ -522,7 +521,6 @@ ip dns static add address=240.0.0.1 name=mapi.m.jd.com
 ip dns static add address=240.0.0.1 name=masdkv6.3g.qq.com
 ip dns static add address=240.0.0.1 name=mazu.m.qq.com
 ip dns static add address=240.0.0.1 name=mbdlog.iqiyi.com
-ip dns static add address=240.0.0.1 name=mcs.zijieapi.com
 ip dns static add address=240.0.0.1 name=medproad.com
 ip dns static add address=240.0.0.1 name=metrics.data.hicloud.com
 ip dns static add address=240.0.0.1 name=metrics.icloud.com
