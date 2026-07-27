@@ -75,6 +75,7 @@ ip dns static add address=240.0.0.1 name=ads-sg.tiktok.com
 ip dns static add address=240.0.0.1 name=ads-video-al.xhscdn.com
 ip dns static add address=240.0.0.1 name=ads-video-qc.xhscdn.com
 ip dns static add address=240.0.0.1 name=ads.95516.com
+ip dns static add address=240.0.0.1 name=ads.adfunlink.com
 ip dns static add address=240.0.0.1 name=ads.auctions.yahoo.com
 ip dns static add address=240.0.0.1 name=ads.cup.com.cn
 ip dns static add address=240.0.0.1 name=ads.google.cn
@@ -132,6 +133,7 @@ ip dns static add address=240.0.0.1 name=adstudio.spotify.com
 ip dns static add address=240.0.0.1 name=adtago.s3.amazonaws.com
 ip dns static add address=240.0.0.1 name=adtech.yahooinc.com
 ip dns static add address=240.0.0.1 name=adtrack.quark.cn
+ip dns static add address=240.0.0.1 name=adtracker.adfunlink.com
 ip dns static add address=240.0.0.1 name=adtracker.medproad.com
 ip dns static add address=240.0.0.1 name=adui.tg.meitu.com
 ip dns static add address=240.0.0.1 name=adv-api.shenshiads.com
@@ -425,7 +427,6 @@ ip dns static add address=240.0.0.1 name=ii.gdt.qq.com
 ip dns static add address=240.0.0.1 name=image-ad.sm.cn
 ip dns static add address=240.0.0.1 name=image.hpplay.cn
 ip dns static add address=240.0.0.1 name=images.outbrainimg.com
-ip dns static add address=240.0.0.1 name=images.pinduoduo.com
 ip dns static add address=240.0.0.1 name=imdns.hpplay.cn
 ip dns static add address=240.0.0.1 name=img-c.heytapimage.com
 ip dns static add address=240.0.0.1 name=img-x.jd.com
@@ -880,7 +881,6 @@ ip dns static add address=240.0.0.1 name=yk-ssp.ad.youku.com
 ip dns static add address=240.0.0.1 name=ykad-data.cp31.ott.cibntv.net
 ip dns static add address=240.0.0.1 name=ykad-data.youku.com
 ip dns static add address=240.0.0.1 name=ykad-gateway.youku.com
-ip dns static add address=240.0.0.1 name=youku-acs.m.taobao.com
 ip dns static add address=240.0.0.1 name=ytx-file.110route.cn
 ip dns static add address=240.0.0.1 name=zeus.ad.xiaomi.com
 ip dns static add address=240.0.0.1 name=zhihu-web-analytics.zhihu.com
