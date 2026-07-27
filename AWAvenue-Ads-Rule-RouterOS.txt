@@ -152,6 +152,8 @@ ip dns static add address=240.0.0.1 name=ads-video-qc.xhscdn.com
 ip dns static add address=:: name=ads-video-qc.xhscdn.com
 ip dns static add address=240.0.0.1 name=ads.95516.com
 ip dns static add address=:: name=ads.95516.com
+ip dns static add address=240.0.0.1 name=ads.adfunlink.com
+ip dns static add address=:: name=ads.adfunlink.com
 ip dns static add address=240.0.0.1 name=ads.auctions.yahoo.com
 ip dns static add address=:: name=ads.auctions.yahoo.com
 ip dns static add address=240.0.0.1 name=ads.cup.com.cn
@@ -266,6 +268,8 @@ ip dns static add address=240.0.0.1 name=adtech.yahooinc.com
 ip dns static add address=:: name=adtech.yahooinc.com
 ip dns static add address=240.0.0.1 name=adtrack.quark.cn
 ip dns static add address=:: name=adtrack.quark.cn
+ip dns static add address=240.0.0.1 name=adtracker.adfunlink.com
+ip dns static add address=:: name=adtracker.adfunlink.com
 ip dns static add address=240.0.0.1 name=adtracker.medproad.com
 ip dns static add address=:: name=adtracker.medproad.com
 ip dns static add address=240.0.0.1 name=adui.tg.meitu.com
@@ -852,8 +856,6 @@ ip dns static add address=240.0.0.1 name=image.hpplay.cn
 ip dns static add address=:: name=image.hpplay.cn
 ip dns static add address=240.0.0.1 name=images.outbrainimg.com
 ip dns static add address=:: name=images.outbrainimg.com
-ip dns static add address=240.0.0.1 name=images.pinduoduo.com
-ip dns static add address=:: name=images.pinduoduo.com
 ip dns static add address=240.0.0.1 name=imdns.hpplay.cn
 ip dns static add address=:: name=imdns.hpplay.cn
 ip dns static add address=240.0.0.1 name=img-c.heytapimage.com
@@ -1762,8 +1764,6 @@ ip dns static add address=240.0.0.1 name=ykad-data.youku.com
 ip dns static add address=:: name=ykad-data.youku.com
 ip dns static add address=240.0.0.1 name=ykad-gateway.youku.com
 ip dns static add address=:: name=ykad-gateway.youku.com
-ip dns static add address=240.0.0.1 name=youku-acs.m.taobao.com
-ip dns static add address=:: name=youku-acs.m.taobao.com
 ip dns static add address=240.0.0.1 name=ytx-file.110route.cn
 ip dns static add address=:: name=ytx-file.110route.cn
 ip dns static add address=240.0.0.1 name=zeus.ad.xiaomi.com
