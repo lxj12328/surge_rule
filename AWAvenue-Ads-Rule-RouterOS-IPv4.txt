@@ -664,6 +664,8 @@ ip dns static add address=240.0.0.1 name=pcm-img.zhls.qq.com
 ip dns static add address=240.0.0.1 name=pgdt.gtimg.cn
 ip dns static add address=240.0.0.1 name=pgdt.ugdtimg.com
 ip dns static add address=240.0.0.1 name=pglstatp-toutiao.com
+ip dns static add address=240.0.0.1 name=pica-a-display.diwodiwo.xyz
+ip dns static add address=240.0.0.1 name=pica-ad-api.diwodiwo.xyz
 ip dns static add address=240.0.0.1 name=pig.pupuapi.com
 ip dns static add address=240.0.0.1 name=pin.hpplay.cn
 ip dns static add address=240.0.0.1 name=pixon.ads-pixiv.net
