@@ -1330,6 +1330,10 @@ ip dns static add address=240.0.0.1 name=pgdt.ugdtimg.com
 ip dns static add address=:: name=pgdt.ugdtimg.com
 ip dns static add address=240.0.0.1 name=pglstatp-toutiao.com
 ip dns static add address=:: name=pglstatp-toutiao.com
+ip dns static add address=240.0.0.1 name=pica-a-display.diwodiwo.xyz
+ip dns static add address=:: name=pica-a-display.diwodiwo.xyz
+ip dns static add address=240.0.0.1 name=pica-ad-api.diwodiwo.xyz
+ip dns static add address=:: name=pica-ad-api.diwodiwo.xyz
 ip dns static add address=240.0.0.1 name=pig.pupuapi.com
 ip dns static add address=:: name=pig.pupuapi.com
 ip dns static add address=240.0.0.1 name=pin.hpplay.cn
