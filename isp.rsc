@@ -1549,6 +1549,7 @@
 :do { add address=103.244.64.0/22 list=all_cn_cidr } on-error={}
 :do { add address=103.244.80.0/22 list=all_cn_cidr } on-error={}
 :do { add address=103.244.232.0/22 list=all_cn_cidr } on-error={}
+:do { add address=103.245.25.0/24 list=all_cn_cidr } on-error={}
 :do { add address=103.245.128.0/22 list=all_cn_cidr } on-error={}
 :do { add address=103.246.152.0/22 list=all_cn_cidr } on-error={}
 :do { add address=103.247.168.0/22 list=all_cn_cidr } on-error={}
@@ -2578,7 +2579,6 @@
 :do { add address=123.49.232.0/24 list=all_cn_cidr } on-error={}
 :do { add address=123.49.240.0/24 list=all_cn_cidr } on-error={}
 :do { add address=123.49.242.0/23 list=all_cn_cidr } on-error={}
-:do { add address=123.49.245.0/24 list=all_cn_cidr } on-error={}
 :do { add address=123.52.0.0/14 list=all_cn_cidr } on-error={}
 :do { add address=123.56.0.0/15 list=all_cn_cidr } on-error={}
 :do { add address=123.58.0.0/19 list=all_cn_cidr } on-error={}
@@ -3096,6 +3096,7 @@
 :do { add address=168.160.158.0/23 list=all_cn_cidr } on-error={}
 :do { add address=168.160.160.0/21 list=all_cn_cidr } on-error={}
 :do { add address=168.160.168.0/24 list=all_cn_cidr } on-error={}
+:do { add address=169.40.59.0/24 list=all_cn_cidr } on-error={}
 :do { add address=171.8.0.0/13 list=all_cn_cidr } on-error={}
 :do { add address=171.22.78.0/24 list=all_cn_cidr } on-error={}
 :do { add address=171.34.0.0/15 list=all_cn_cidr } on-error={}
@@ -5377,7 +5378,6 @@
 :do { add address=122.248.48.0/21 list=chinatelecom_cidr } on-error={}
 :do { add address=122.248.56.0/22 list=chinatelecom_cidr } on-error={}
 :do { add address=123.49.192.0/23 list=chinatelecom_cidr } on-error={}
-:do { add address=123.49.245.0/24 list=chinatelecom_cidr } on-error={}
 :do { add address=123.52.0.0/14 list=chinatelecom_cidr } on-error={}
 :do { add address=123.58.0.0/19 list=chinatelecom_cidr } on-error={}
 :do { add address=123.58.224.0/19 list=chinatelecom_cidr } on-error={}
@@ -10075,6 +10075,7 @@
 :do { add address=89.33.193.0/24 list=hk_cidr } on-error={}
 :do { add address=89.42.87.0/24 list=hk_cidr } on-error={}
 :do { add address=89.43.141.0/24 list=hk_cidr } on-error={}
+:do { add address=89.47.119.0/24 list=hk_cidr } on-error={}
 :do { add address=89.106.25.0/24 list=hk_cidr } on-error={}
 :do { add address=89.116.88.0/23 list=hk_cidr } on-error={}
 :do { add address=89.116.221.0/24 list=hk_cidr } on-error={}
@@ -10987,6 +10988,7 @@
 :do { add address=103.175.128.0/23 list=hk_cidr } on-error={}
 :do { add address=103.175.196.0/24 list=hk_cidr } on-error={}
 :do { add address=103.175.255.0/24 list=hk_cidr } on-error={}
+:do { add address=103.176.0.0/23 list=hk_cidr } on-error={}
 :do { add address=103.176.91.0/24 list=hk_cidr } on-error={}
 :do { add address=103.176.122.0/23 list=hk_cidr } on-error={}
 :do { add address=103.176.196.0/23 list=hk_cidr } on-error={}
@@ -11489,7 +11491,7 @@
 :do { add address=112.121.160.0/20 list=hk_cidr } on-error={}
 :do { add address=112.121.176.0/21 list=hk_cidr } on-error={}
 :do { add address=112.121.188.0/22 list=hk_cidr } on-error={}
-:do { add address=112.137.16.0/24 list=hk_cidr } on-error={}
+:do { add address=112.137.16.0/23 list=hk_cidr } on-error={}
 :do { add address=112.137.21.0/24 list=hk_cidr } on-error={}
 :do { add address=112.142.36.0/23 list=hk_cidr } on-error={}
 :do { add address=112.142.44.0/23 list=hk_cidr } on-error={}
@@ -12075,6 +12077,7 @@
 :do { add address=143.20.84.0/24 list=hk_cidr } on-error={}
 :do { add address=143.20.86.0/24 list=hk_cidr } on-error={}
 :do { add address=143.20.113.0/24 list=hk_cidr } on-error={}
+:do { add address=143.20.116.0/24 list=hk_cidr } on-error={}
 :do { add address=143.20.118.0/24 list=hk_cidr } on-error={}
 :do { add address=143.20.121.0/24 list=hk_cidr } on-error={}
 :do { add address=143.20.131.0/24 list=hk_cidr } on-error={}
@@ -12097,6 +12100,7 @@
 :do { add address=143.20.247.0/24 list=hk_cidr } on-error={}
 :do { add address=143.89.0.0/16 list=hk_cidr } on-error={}
 :do { add address=143.92.32.0/19 list=hk_cidr } on-error={}
+:do { add address=143.203.52.0/24 list=hk_cidr } on-error={}
 :do { add address=143.246.48.0/23 list=hk_cidr } on-error={}
 :do { add address=144.31.36.0/24 list=hk_cidr } on-error={}
 :do { add address=144.31.45.0/24 list=hk_cidr } on-error={}
@@ -13374,7 +13378,6 @@
 :do { add address=164.37.193.0/24 list=hk_cidr } on-error={}
 :do { add address=164.37.194.0/24 list=hk_cidr } on-error={}
 :do { add address=164.37.201.0/24 list=hk_cidr } on-error={}
-:do { add address=164.37.207.0/24 list=hk_cidr } on-error={}
 :do { add address=164.37.213.0/24 list=hk_cidr } on-error={}
 :do { add address=164.37.214.0/23 list=hk_cidr } on-error={}
 :do { add address=164.37.217.0/24 list=hk_cidr } on-error={}
@@ -13659,8 +13662,6 @@
 :do { add address=178.93.199.0/24 list=hk_cidr } on-error={}
 :do { add address=178.93.215.0/24 list=hk_cidr } on-error={}
 :do { add address=178.93.229.0/24 list=hk_cidr } on-error={}
-:do { add address=178.93.230.0/24 list=hk_cidr } on-error={}
-:do { add address=178.93.232.0/24 list=hk_cidr } on-error={}
 :do { add address=178.93.241.0/24 list=hk_cidr } on-error={}
 :do { add address=178.93.242.0/24 list=hk_cidr } on-error={}
 :do { add address=178.94.17.0/24 list=hk_cidr } on-error={}
@@ -14279,6 +14280,7 @@
 :do { add address=199.13.0.0/19 list=hk_cidr } on-error={}
 :do { add address=199.13.128.0/19 list=hk_cidr } on-error={}
 :do { add address=199.15.76.0/22 list=hk_cidr } on-error={}
+:do { add address=199.19.16.0/22 list=hk_cidr } on-error={}
 :do { add address=199.30.88.0/24 list=hk_cidr } on-error={}
 :do { add address=199.58.88.0/24 list=hk_cidr } on-error={}
 :do { add address=199.101.118.0/23 list=hk_cidr } on-error={}
@@ -14338,6 +14340,7 @@
 :do { add address=201.24.224.0/24 list=hk_cidr } on-error={}
 :do { add address=201.50.16.0/23 list=hk_cidr } on-error={}
 :do { add address=201.50.19.0/24 list=hk_cidr } on-error={}
+:do { add address=201.50.21.0/24 list=hk_cidr } on-error={}
 :do { add address=201.50.30.0/24 list=hk_cidr } on-error={}
 :do { add address=201.50.36.0/22 list=hk_cidr } on-error={}
 :do { add address=201.50.40.0/22 list=hk_cidr } on-error={}
@@ -15411,7 +15414,7 @@
 :do { add address=217.216.141.0/24 list=hk_cidr } on-error={}
 :do { add address=217.216.142.0/23 list=hk_cidr } on-error={}
 :do { add address=217.216.164.0/22 list=hk_cidr } on-error={}
-:do { add address=217.216.178.0/24 list=hk_cidr } on-error={}
+:do { add address=217.216.178.0/23 list=hk_cidr } on-error={}
 :do { add address=217.216.203.0/24 list=hk_cidr } on-error={}
 :do { add address=217.216.204.0/24 list=hk_cidr } on-error={}
 :do { add address=217.217.9.0/24 list=hk_cidr } on-error={}
@@ -17580,6 +17583,7 @@
 :do { add address=103.242.212.0/22 list=othernet_cidr } on-error={}
 :do { add address=103.243.252.0/22 list=othernet_cidr } on-error={}
 :do { add address=103.244.64.0/22 list=othernet_cidr } on-error={}
+:do { add address=103.245.25.0/24 list=othernet_cidr } on-error={}
 :do { add address=103.245.128.0/22 list=othernet_cidr } on-error={}
 :do { add address=103.247.176.0/22 list=othernet_cidr } on-error={}
 :do { add address=103.247.191.0/24 list=othernet_cidr } on-error={}
@@ -18369,6 +18373,7 @@
 :do { add address=164.163.236.0/22 list=othernet_cidr } on-error={}
 :do { add address=165.101.208.0/23 list=othernet_cidr } on-error={}
 :do { add address=167.220.244.0/22 list=othernet_cidr } on-error={}
+:do { add address=169.40.59.0/24 list=othernet_cidr } on-error={}
 :do { add address=171.22.78.0/24 list=othernet_cidr } on-error={}
 :do { add address=172.81.192.0/18 list=othernet_cidr } on-error={}
 :do { add address=173.211.42.0/24 list=othernet_cidr } on-error={}
